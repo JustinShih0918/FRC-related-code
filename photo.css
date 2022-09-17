@@ -1,0 +1,311 @@
+.Pimg{
+    width: 480px;
+    height: 291.2px;
+}
+
+.slider_container {
+    margin: 30px auto;
+    width: 520px;
+    height: 364px;
+    position: relative;
+    border: 20px solid;
+    border-color: #fff;
+    border-bottom-width: 100px;
+    background-color: #f5f5f5;
+    box-shadow: #666 0 0 5px;
+    }
+    
+    .slider_container div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-animation: round 250s linear infinite;
+    animation: round 250s linear infinite;
+    }
+
+    @-webkit-keyframes round {
+        0.4% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        /* 0 - 1秒 淡入*/
+        }
+        2% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        /* 1- 5秒靜止*/
+        }
+        2.4% {
+        opacity: 0;
+        filter: alpha(opacity=0);
+        /* 5-6秒淡出*/
+        }
+        }
+        @keyframes round {
+        0.4% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        /* 0 - 1秒 淡入*/
+        }
+        2% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        /* 1- 5秒靜止*/
+        }
+        2.4% {
+        opacity: 0;
+        filter: alpha(opacity=0);
+        /* 5-6秒淡出*/
+        }
+        }
+
+            .slider_container div:nth-child(1) {
+            -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+            }
+            
+            .slider_container div:nth-child(2) {
+            -webkit-animation-delay: 5s;
+            animation-delay: 5s;
+            }
+            
+            .slider_container div:nth-child(3) {
+            -webkit-animation-delay: 10s;
+            animation-delay: 10s;
+            }
+            
+            .slider_container div:nth-child(4) {
+            -webkit-animation-delay: 15s;
+            animation-delay: 15s;
+            }
+            
+            .slider_container div:nth-child(5) {
+            -webkit-animation-delay: 20s;
+            animation-delay: 20s;
+            }
+
+            .slider_container div:nth-child(6) {
+                -webkit-animation-delay: 25s;
+                animation-delay: 25s;
+                }
+            
+            .slider_container div:nth-child(7) {
+            -webkit-animation-delay: 30s;
+            animation-delay: 30s;
+            }
+
+            .slider_container div:nth-child(8) {
+                -webkit-animation-delay: 35s;
+                animation-delay: 35s;
+            }
+
+            .slider_container div:nth-child(9) {
+                -webkit-animation-delay: 40s;
+                animation-delay: 40s;
+            }
+
+            .slider_container div:nth-child(10) {
+                -webkit-animation-delay: 45s;
+                animation-delay: 45s;
+            }
+
+            .slider_container div:nth-child(11) {
+                -webkit-animation-delay: 50s;
+                animation-delay: 50s;
+            }
+
+            .slider_container div:nth-child(12) {
+                -webkit-animation-delay: 55s;
+                animation-delay: 55s;
+            }
+
+            .slider_container div:nth-child(13) {
+                -webkit-animation-delay: 60s;
+                animation-delay: 60s;
+            }
+
+            .slider_container div:nth-child(14) {
+                -webkit-animation-delay: 65s;
+                animation-delay: 65s;
+            }
+
+            .slider_container div:nth-child(15) {
+                -webkit-animation-delay: 70s;
+                animation-delay: 70s;
+            }
+
+            .slider_container div:nth-child(16) {
+                -webkit-animation-delay: 75s;
+                animation-delay: 75s;
+            }
+
+            .slider_container div:nth-child(17) {
+                -webkit-animation-delay: 80s;
+                animation-delay: 80s;
+            }
+
+            .slider_container div:nth-child(18) {
+                -webkit-animation-delay: 85s;
+                animation-delay: 85s;
+            }
+
+            .slider_container div:nth-child(19) {
+                -webkit-animation-delay: 90s;
+                animation-delay: 90s;
+            }
+
+            .slider_container div:nth-child(20) {
+                -webkit-animation-delay: 95s;
+                animation-delay: 95s;
+            }
+
+            .slider_container div:nth-child(21) {
+                -webkit-animation-delay: 100s;
+                animation-delay: 100s;
+            }
+
+            .slider_container div:nth-child(22) {
+                -webkit-animation-delay: 105s;
+                animation-delay: 105s;
+            }
+
+            .slider_container div:nth-child(23) {
+                -webkit-animation-delay: 110s;
+                animation-delay: 110s;
+            }
+
+            .slider_container div:nth-child(24) {
+                -webkit-animation-delay: 115s;
+                animation-delay: 115s;
+            }
+
+            .slider_container div:nth-child(25) {
+                -webkit-animation-delay: 120s;
+                animation-delay: 120s;
+            }
+
+            .slider_container div:nth-child(26) {
+                -webkit-animation-delay: 125s;
+                animation-delay: 125s;
+            }
+
+            .slider_container div:nth-child(27) {
+                -webkit-animation-delay: 130s;
+                animation-delay: 130s;
+            }
+
+            .slider_container div:nth-child(28) {
+                -webkit-animation-delay: 135s;
+                animation-delay: 135s;
+            }
+
+            .slider_container div:nth-child(29) {
+                -webkit-animation-delay: 140s;
+                animation-delay: 140s;
+            }
+
+            .slider_container div:nth-child(30) {
+                -webkit-animation-delay: 145s;
+                animation-delay: 145s;
+            }
+
+            .slider_container div:nth-child(31) {
+                -webkit-animation-delay: 150s;
+                animation-delay: 150s;
+            }
+
+            .slider_container div:nth-child(32) {
+                -webkit-animation-delay: 155s;
+                animation-delay: 155s;
+            }
+
+            .slider_container div:nth-child(33) {
+                -webkit-animation-delay: 160s;
+                animation-delay: 160s;
+            }
+
+            .slider_container div:nth-child(34) {
+                -webkit-animation-delay: 165s;
+                animation-delay: 165s;
+            }
+
+            .slider_container div:nth-child(35) {
+                -webkit-animation-delay: 170s;
+                animation-delay: 170s;
+            }
+
+            .slider_container div:nth-child(36) {
+                -webkit-animation-delay: 175s;
+                animation-delay: 175s;
+            }
+
+            .slider_container div:nth-child(37) {
+                -webkit-animation-delay: 180s;
+                animation-delay: 180s;
+            }
+
+            .slider_container div:nth-child(38) {
+                -webkit-animation-delay: 185s;
+                animation-delay: 185s;
+            }
+
+            .slider_container div:nth-child(39) {
+                -webkit-animation-delay: 190s;
+                animation-delay: 190s;
+            }
+
+            .slider_container div:nth-child(40) {
+                -webkit-animation-delay: 195s;
+                animation-delay: 195s;
+            }
+
+            .slider_container div:nth-child(41) {
+                -webkit-animation-delay: 200s;
+                animation-delay: 200s;
+            }
+
+            .slider_container div:nth-child(42) {
+                -webkit-animation-delay: 205s;
+                animation-delay: 205s;
+            }
+
+            .slider_container div:nth-child(43) {
+                -webkit-animation-delay: 210s;
+                animation-delay: 210s;
+            }
+
+            .slider_container div:nth-child(44) {
+                -webkit-animation-delay: 215s;
+                animation-delay: 215s;
+            }
+
+            .slider_container div:nth-child(45) {
+                -webkit-animation-delay: 220s;
+                animation-delay: 220s;
+            }
+
+            .slider_container div:nth-child(46) {
+                -webkit-animation-delay: 225s;
+                animation-delay: 225s;
+            }
+
+            .slider_container div:nth-child(47) {
+                -webkit-animation-delay: 230s;
+                animation-delay: 230s;
+            }
+
+            .slider_container div:nth-child(48) {
+                -webkit-animation-delay: 235s;
+                animation-delay: 235s;
+            }
+
+            .slider_container div:nth-child(49) {
+                -webkit-animation-delay: 240s;
+                animation-delay: 240s;
+            }
+
+            .slider_container div:nth-child(50) {
+                -webkit-animation-delay: 245s;
+                animation-delay: 245s;
+            }
